@@ -84,7 +84,7 @@ public class Customlistener implements ITestListener {
 		String screenpath =System.getProperty("user.dir")+"\\screenshot\\"+result.getName()+".png";
 	       File shotfile= new File(screenpath);
 	       if(shotfile.exists()) {
-	    	   test.fail("capture screenshot is below :"+test.addScreenCaptureFromPath(screenpath));
+	    	   test.fail("capture screenshot is above :"+test.addScreenCaptureFromPath(screenpath));
 	       }
 	}
 

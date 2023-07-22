@@ -5,10 +5,11 @@
 		<listener class-name="comutil.Customlistener"></listener>
 	</listeners>
   <test thread-count="5" name="Test">
+	  <parameter name="browser" value="chrome"></parameter>
     <classes>
     
      
-       <class name="com.sample.Maven2.Base3test"/>
+       <class name="com.sample.Maven2.Base4test"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
