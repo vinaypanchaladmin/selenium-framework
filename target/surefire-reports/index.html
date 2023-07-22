@@ -103,7 +103,7 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.sample.Maven2.Base3test" class="method navigator-link" hash-for-method="addcart">addcart</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="com.sample.Maven2.Base4test" class="method navigator-link" hash-for-method="addresult">addresult</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -121,14 +121,14 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.sample.Maven2.Base3test</span>
+              <span class="class-name">com.sample.Maven2.Base4test</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="addcart">
-                  </a> <!-- addcart -->
-                  <span class="method-name">addcart</span>
+                  <a name="addresult">
+                  </a> <!-- addresult -->
+                  <span class="method-name">addresult</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -147,8 +147,9 @@
     &lt;listener class-name=&quot;comutil.Customlistener&quot;/&gt;
   &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.sample.Maven2.Base3test&quot;/&gt;
+      &lt;class name=&quot;com.sample.Maven2.Base4test&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -190,14 +191,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'addcart')
-data.setCell(0, 2, 'com.sample.Maven2.Base3test')
-data.setCell(0, 3, 52042);
+data.setCell(0, 1, 'addresult')
+data.setCell(0, 2, 'com.sample.Maven2.Base4test')
+data.setCell(0, 3, 18542);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 52 seconds</span>
+              <span class="suite-total-time">Total running time: 18 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -223,11 +224,19 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.sample.Maven2.Base3test</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">addcart</span>
+              <div class="chronological-class-name">com.sample.Maven2.Base4test</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome)</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addresult</span>
+                <span class="method-start">60348 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tear</span>
+                <span class="method-start">78983 ms</span>
+              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

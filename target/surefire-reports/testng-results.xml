@@ -2,16 +2,31 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-20T14:03:20 IST" name="Suite" finished-at="2023-07-20T14:04:14 IST" duration-ms="54243">
+  <suite started-at="2023-07-22T13:17:10 IST" name="Suite" finished-at="2023-07-22T13:18:31 IST" duration-ms="80940">
     <groups>
     </groups>
-    <test started-at="2023-07-20T14:03:20 IST" name="Test" finished-at="2023-07-20T14:04:14 IST" duration-ms="54243">
-      <class name="com.sample.Maven2.Base3test">
-        <test-method signature="addcart()[pri:0, instance:com.sample.Maven2.Base3test@62150f9e]" started-at="2023-07-20T14:03:22 IST" name="addcart" finished-at="2023-07-20T14:04:14 IST" duration-ms="52042" status="PASS">
+    <test started-at="2023-07-22T13:17:10 IST" name="Test" finished-at="2023-07-22T13:18:31 IST" duration-ms="80940">
+      <class name="com.sample.Maven2.Base4test">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.sample.Maven2.Base4test@2e005c4b]" started-at="2023-07-22T13:17:11 IST" name="setup" finished-at="2023-07-22T13:18:11 IST" duration-ms="60344" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addcart -->
-      </class> <!-- com.sample.Maven2.Base3test -->
+        </test-method> <!-- setup -->
+        <test-method signature="addresult()[pri:0, instance:com.sample.Maven2.Base4test@2e005c4b]" started-at="2023-07-22T13:18:11 IST" name="addresult" finished-at="2023-07-22T13:18:30 IST" duration-ms="18542" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addresult -->
+        <test-method is-config="true" signature="tear()[pri:0, instance:com.sample.Maven2.Base4test@2e005c4b]" started-at="2023-07-22T13:18:30 IST" name="tear" finished-at="2023-07-22T13:18:31 IST" duration-ms="852" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+      </class> <!-- com.sample.Maven2.Base4test -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
